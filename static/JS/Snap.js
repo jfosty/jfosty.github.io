@@ -18,7 +18,7 @@ d3.json(link).then(geojsonData => {
     
     // Load the CSV data - Note: I had to run a server in the project folder in order to view the CSV data
     // In a terminal window run: python -m http.server 8000
-    d3.csv("static/data/Philadelphia_Food_Access2.csv").then(csvData => {
+    d3.csv("Static/data/Philadelphia_Food_Access2.csv").then(csvData => {
 
         // Create a lookup for faster access
         let censusLookup = {};
